@@ -29,7 +29,7 @@ const PrimaryButton = ({
     primaryColorHover='#169AFF',
     secondaryColorHover='#810D92',
     color='white'
-    }: ButtonProps) => {
+    }: ButtonProps): React.JSX.Element => {
 
     const [isHovering, setIsHovering] = useState(false);
 
